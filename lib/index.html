@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <html lang="en-US">
+    <meta charset="utf-8">
+    <link href="../styles/calculator.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div class="calculatorContainer">
+          <div class="screen">
+            <p class="log"></p>
+            <p class="input" maxlength="10"></p>
+          </div>
+
+          <div class="buttons">
+            <button class="reset" id="reset" onclick="getValue('C')">C</button>
+            <button class="operator" id="leftBracket" onclick="getValue('(')">(</button>
+            <button class="operator" id="rightBracket" onclick="getValue(')')">)</button>
+            <button class="operator" id="back" onclick="back('<')"><</button>
+            <button class="number" id="seven" onclick="getValue('7')">7</button>
+            <button class="number" id="eight" onclick="getValue('8')">8</button>
+            <button class="number" id="nine" onclick="getValue('9')">9</button>
+            <button class="operator" id="division" onclick="getValue('/')">/</button>
+            <button class="number" id="four" onclick="getValue('4')">4</button>
+            <button class="number" id="five" onclick="getValue('5')">5</button>
+            <button class="number" id="six" onclick="getValue('6')">6</button>
+            <button class="operator" id="multiplication" onclick="getValue('*')">*</button>
+            <button class="number" id="one" onclick="getValue('1')">1</button>
+            <button class="number" id="two" onclick="getValue('2')">2</button>
+            <button class="number" id="three" onclick="getValue('3')">3</button>
+            <button class="operator" id="subtraction" onclick="getValue('-')">-</button>
+            <button class="number" id="zero" onclick="getValue('0')">0</button>
+            <button class="number" id="point" onclick="getValue('.')">.</button>
+            <button class="equals" id="equals" onclick="result('')">=</button>
+            <button class="operator" id="addition" onclick="getValue('+')">+</button>
+          </div>
+    </div>
+</body>
+    <script type="text/javascript" src="calculator.js"></script>
+</html>

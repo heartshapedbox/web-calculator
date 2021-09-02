@@ -1,0 +1,94 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 120%;
+  line-height: 5%;
+}
+
+p.input {
+  padding: 0 20px;
+  text-align: right;
+}
+
+p.log {
+  padding: 0 20px;
+  text-align: right;
+  color: rgb(51, 50, 51);
+  font-size: 50%;
+  font-style: italic;
+}
+
+div.calculatorContainer {
+  position: relative;
+  width: 470px;
+  height: 700px;
+  background-color: #000000;
+  background: linear-gradient(to bottom right, #000000, #505050);
+  border-radius: 35px;
+  margin: auto;
+  box-shadow: 3px 3px 35px #000000;
+}
+
+div.screen {
+  position: absolute;
+  width: 340px;
+  height: 90px;
+  background-color: #698B22;
+  border-radius: 20px;
+  margin-left: 65px;
+  margin-top: 65px;
+  box-shadow: inset 1px -1px 8px #000000;
+}
+
+div.buttons {
+  position: absolute;
+  width: 360px;
+  height: 470px;
+  margin-left: 55px;
+  margin-top: 170px;
+}
+
+button {
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 72px;
+  height: 72px;
+  border: none;
+  border-radius: 35px;
+  color: #000000;
+  box-shadow: 3px 3px 35px #000000;
+  outline-style: none;
+}
+
+button.reset {
+  background-color: rgb(112, 5, 5);
+}
+
+button.equals {
+  background-color: #CD6839;
+}
+
+button.percentage {
+  background-color: #505050;
+}
+
+button.operator {
+  background-color: #505050;
+}
+
+button.number {
+  background-color: #C0C0C0;
+}
+
+button:hover {
+ background-color: rgb(51, 50, 51);
+ transition: 0.2s;
+ cursor: pointer;
+}
+
+button:active {
+  width: 67px;
+  height: 67px;
+  margin-left: 15px;
+  margin-bottom: -500px;
+  font-size: 110%;
+}
