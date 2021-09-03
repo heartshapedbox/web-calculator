@@ -1,7 +1,7 @@
 {
   "name": "calculator",
   "main": "./lib/calculator",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Web calculator.",
   "keywords": [
   ],
