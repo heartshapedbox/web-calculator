@@ -5,3 +5,4 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/heartshapedbox/web-calculator?color=FF4500)
 
 ### Web Calculator
+Built on HTML, CSS, JavaScript.
